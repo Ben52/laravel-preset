@@ -1,0 +1,25 @@
+{
+  "name": "bengreeens/laravel-preset",
+  "description": "A laravel preset to use Elm and Tailwind",
+  "keywords": ["laravel", "laravel preset", "tailwindcss", "elm"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Binyomin Greenes",
+      "email": "bygreenes@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "BenGreenes\\LaravelPreset": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "BenGreenes\\LaravelPreset\\PresetServiceProvider"
+      ]
+    }
+  }
+}
