@@ -12,7 +12,7 @@
   "require": {},
   "autoload": {
     "psr-4": {
-      "BenGreenes\\LaravelPreset": "src/"
+      "BenGreenes\\LaravelPreset\\": "src/"
     }
   },
   "extra": {
