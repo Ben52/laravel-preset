@@ -15,9 +15,7 @@ class PresetServiceProvider extends ServiceProvider
             Preset::install();
 
             $command->info('Elm and tailwind installed successfully');
-            $command->comment('run `composer require laravel/passport`');
-            $command->comment('run `yarn`');
-            $command->comment('run `./node_modules/.bin/tailwind init`');
+            $command->comment('run `composer require laravel/passport && yarn && ./node_modules/.bin/tailwind init`');
         });
     }
 

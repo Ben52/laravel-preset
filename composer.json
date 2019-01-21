@@ -1,5 +1,5 @@
 {
-  "name": "bengreeens/laravel-preset",
+  "name": "bengreenes/laravel-preset",
   "description": "A laravel preset to use Elm and Tailwind",
   "keywords": ["laravel", "laravel preset", "tailwindcss", "elm"],
   "license": "MIT",
